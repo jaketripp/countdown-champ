@@ -22,7 +22,7 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
+            <div className="App container">
                 <div className="App-title">Countdown to {this.state.deadline}</div>
                 <Clock
                     deadline={this.state.deadline}

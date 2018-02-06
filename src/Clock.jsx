@@ -35,7 +35,7 @@ export default class Clock extends Component {
     
     render() {
         return (
-            <div>
+            <div className="clock">
                 <div className="Clock-days">{this.leading0(this.state.days)} days</div>
                 <div className="Clock-hours">{this.leading0(this.state.hours)} hours</div>
                 <div className="Clock-minutes">{this.leading0(this.state.minutes)} minutes</div>
